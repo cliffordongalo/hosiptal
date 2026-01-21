@@ -1,0 +1,120 @@
+ nav{
+                     background-color: red;
+                     display: flex;
+                     justify-content: right;
+                     align-items: center;
+                     padding: 30px 5px;
+
+
+                 }
+         nav ul{
+             display: flex;
+           list-style-type: none;
+
+         }
+
+nav ul li{
+    margin: 0 20px ;
+
+}
+       nav ul li a{
+           text-decoration: none;
+           color: blue;
+           font-size: 20px;
+           font-weight: bold;
+
+       }
+   nav ul li a:hover{
+       background-color: white;
+       color: black;
+       padding: 10px 20px;
+       border-radius: 10px;
+   }.hero-image{
+         background-image: url("../Hospital/assets/images/istockphoto-1757344400-1024x1024.jpg");
+         background-size: cover;
+         background-position: center;
+         height: 570px;
+         border-radius: 20px;
+         margin: 20px;
+           width: 100%;
+     }
+       .hero-text{
+           color: black;
+           font-size: 36px;
+            font-weight: bold;
+           text-align: center;
+           text-decoration: underline;  \
+           position: relative;
+           top: 50%;
+           transform: translateY(500%);
+
+
+       }
+
+          footer{
+              text-align: center;
+              font-weight: bold;
+              padding: 10px;
+              background-color: darkslategrey;
+              color: orange;
+              border-radius: 10px;
+              margin: 20px;
+
+          }
+                p{
+                    color: black;
+                    font-size: 21px;
+                    font-weight: bold;
+                    margin: 20px;
+                    line-height: 1.6;
+                }
+                .content{
+                    font-weight: bold;
+                    color: blue;
+                    background-color: darkslategrey;
+
+                    border-radius: 20px;
+                    text-align: center;
+
+                }
+                .map iframe{
+                  width: 100%;
+                  border-radius: 20px;
+                }
+                    .youtube{
+                        display: flex;
+                        gap: 10px;
+
+
+                    }
+                    h1{
+                        text-align: center;
+                        color: blue;
+                    }
+             main h2{
+                color: blue;
+                padding: 20px;
+                background-color: pink;
+                margin: 10px;
+                border-radius: 20px;
+                text-align: center;
+            }
+             h3{
+                  color: blue;
+                padding: 20px;
+                background-color: yellow;
+                margin: 10px;
+                border-radius: 20px;
+                text-align: center;
+
+             }
+             main p{
+                  color: black;
+                  text-align: center;
+             }
+             main ul{
+                 color: blue;
+                 background-color: gold;
+                 width: 75%;
+                 border-radius: 30px;
+             }
